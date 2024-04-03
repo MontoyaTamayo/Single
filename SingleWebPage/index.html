@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <header>
+        <h1> ¡Bienvenido a My Melody Wonderland!</h1>
+    </header>
+
+    <nav>
+        <a href="#Inicio" data-nav-section="home">‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Inicio ‎ ‎ ‎ ‎ </a>
+        <a href="#Nosotros" data-nav-section="Nosotros">Nosotros ‎ ‎ ‎ ‎ </a>
+        <a href="#Contactanos" data-nav-section="contacto">Contactanos</a>
+
+    </nav>
+
+    <div>
+        <form>
+            <h2>Login</h2>
+            <section class="Inicio" id="Login"></section>
+
+
+            <label for="Username">Username</label>
+            <input type="Text" id="Username">
+
+            <label for="Password">Password</label>
+            <input type="Password" id="Password">
+
+            <div class="Remember">
+                <p>¿Olvidaste tu contraseña?</p>
+                <p>Crear cuenta</p>
+            </div>
+
+            <input type="Submit" class="btn-1" value="Iniciar">
+        </form>
+    </div>
+
+    <div class="Nosotros">
+        <p> Sumérgete en un mundo de dulzura y encanto con nuestra colección exclusiva de productos de My Melody. En My Melody Wonderland, celebramos la icónica conejita blanca con una pasión por la ternura y la alegría. Desde peluches suaves hasta accesorios
+            adorables, nuestra tienda en línea es el destino definitivo para todos los amantes de My Melody. ¿Buscas el regalo perfecto para esa persona especial? Explora nuestra selección de artículos de papelería, desde cuadernos hasta bolígrafos, todos
+            adornados con la dulce imagen de My Melody. ¿Quieres añadir un toque de magia a tu hogar? No busques más. Descubre nuestra gama de artículos para el hogar, que incluyen tazas, almohadas y mantas, diseñados para llevar un poco de alegría de
+            My Melody a tu vida diaria. Pero eso no es todo. En My Melody Wonderland, también ofrecemos una variedad de ropa y accesorios para que puedas lucir tu amor por My Melody dondequiera que vayas. Desde camisetas hasta bolsos, tenemos todo lo
+            que necesitas para mostrar tu estilo único y encantador. Navega por nuestra página web y déjate envolver por el mundo mágico de My Melody. Con opciones de envío rápido y seguro, así como un servicio al cliente excepcional, My Melody Wonderland
+            es tu destino número uno para todos los productos relacionados con My Melody. ¡Únete a nosotros en My Melody Wonderland y haz que cada día sea un poco más dulce! <br><br><br><br> 319 6320618 ~ Montoya Tamayo ~ @_____mt08 <br><br><br><br>
+
+        </p>
+    </div>
+
+
+
+    <script>
+        var x = document.getElementById('login');
+        var y = document.getElementById('register');
+        var z = document.getElementById('btn');
+
+        function register() {
+
+            x.style.left = '-400px';
+            y.style.left = '50px';
+            z.style.left = '110px';
+        }
+
+        function login() {
+
+            x.style.left = '50px';
+            y.style.left = '450px';
+            z.style.left = '0px';
+        }
+    </script>
+
+    <script>
+        var modal = document.getElementById('login-form');
+        window.onclick = function(event) {
+
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

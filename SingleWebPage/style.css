@@ -1,0 +1,129 @@
+body {
+    font-family: Sansita;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(Mymelody.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #e79eff;
+    color: black;
+    padding: 50px;
+    width: 1903px;
+    margin-left: -100px;
+    position: absolute;
+}
+
+header h1 {
+    position: relative;
+    left: 100px;
+}
+
+nav {
+    background-color: #f6a5c0;
+    color: aliceblue;
+    width: 2043px;
+    height: 40px;
+    text-align: center;
+    list-style-type: circle;
+    position: absolute;
+    top: 120px;
+    margin-left: -140px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    width: 150px;
+    font-size: 30px;
+}
+
+form {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    background-color: #EEEEEE;
+    position: absolute;
+    left: 750px;
+    top: 300px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #2E2E2E;
+    margin-bottom: 25px;
+}
+
+label,
+p {
+    font-size: 17px;
+    color: #575757;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 17px 11px;
+    border: 1px solid #fdcae1;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    background-color: #FAFAFC;
+    outline: none;
+    color: #ff85d5;
+    font-size: 17px;
+}
+
+.btn-1 {
+    background-color: white;
+    font-size: 15px;
+    color: black;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    background-color: #fdcae1;
+}
+
+.remember {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.Nosotros p {
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    left: 500px;
+    position: relative;
+    top: 900px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media(max-width:991px) {
+    body {
+        padding: 30px;
+    }
+    form {
+        width: 100%;
+    }
+    .remember {
+        flex-direction: column;
+    }
+}
